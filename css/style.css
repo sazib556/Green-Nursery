@@ -1,0 +1,88 @@
+:root
+{
+    --gc-green: #2f6b3f;
+    --gc-light: #eaf4e4;
+    --gc-accent: #f2a541;
+}
+
+body
+{
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.navbar-gc
+{
+    background-color: var(--gc-green);
+}
+
+.navbar-gc .nav-link
+{
+    color: #dcebd6;
+}
+
+.navbar-gc .nav-link:hover, .navbar-gc .nav-link.active
+{
+    color: #fff;
+}
+
+.hero
+{
+    background-color: var(--gc-light);
+    padding: 90px 0;
+}
+
+.hero h1
+{
+    color: var(--gc-green);
+    font-weight: 700;
+}
+
+.btn-gc
+{
+    background-color: var(--gc-accent);
+    color: #3a2600;
+    font-weight: 600;
+    border: 0;
+}
+
+.btn-gc:hover
+{
+    background-color: #e0932b;
+    color: #3a2600;
+}
+
+.emoji-box
+{
+    font-size: 64px;
+    background-color: var(--gc-green);
+    text-align: center;
+    padding: 24px 0;
+}
+
+.card-hover
+{
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-hover:hover
+{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0 , 0, 0.12);
+}
+
+footer
+{
+    background-color: #1f3d28;
+    color: #bcd3bf;
+}
+
+footer a
+{
+    color: #bcd3bf;
+    text-decoration: none;
+}
+
+footer a:hover
+{
+    color: #fff;
+}
